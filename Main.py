@@ -1,9 +1,9 @@
 from abc import ABC, abstractmethod
 
 
-# -------------------------
+# =========================================
 # CLASE ABSTRACTA PERSONA
-# -------------------------
+# =========================================
 
 class Persona(ABC):
 
@@ -16,20 +16,34 @@ class Persona(ABC):
         pass
 
 
-# -------------------------
+# =========================================
 # CLASE CLIENTE
-# -------------------------
+# =========================================
 
 class Cliente(Persona):
 
     def __init__(self, nombre, documento, correo):
 
-        if "@" not in correo:
-            raise ValueError("Correo inválido")
+        try:
 
-        super().__init__(nombre, documento)
+            if not documento.isdigit():
+                raise ValueError("El documento debe contener solo números")
 
-        self.__correo = correo
+            if "@" not in correo:
+                raise ValueError("Correo inválido")
+
+            super().__init__(nombre, documento)
+
+            self.__correo = correo
+
+        except ValueError as error:
+
+            print("Error en cliente:", error)
+
+            with open("logs.txt", "a") as archivo:
+                archivo.write(f"Error detectado: {error}\n")
+
+            raise
 
     def mostrar_datos(self):
 
@@ -38,9 +52,9 @@ class Cliente(Persona):
         print(f"Correo: {self.__correo}")
 
 
-# -------------------------
+# =========================================
 # CLASE ABSTRACTA SERVICIO
-# -------------------------
+# =========================================
 
 class Servicio(ABC):
 
@@ -53,9 +67,9 @@ class Servicio(ABC):
         pass
 
 
-# -------------------------
+# =========================================
 # SERVICIO RESERVA SALA
-# -------------------------
+# =========================================
 
 class ReservaSala(Servicio):
 
@@ -73,9 +87,9 @@ class ReservaSala(Servicio):
         return self.costo_base * self.horas
 
 
-# -------------------------
+# =========================================
 # SERVICIO ALQUILER EQUIPO
-# -------------------------
+# =========================================
 
 class AlquilerEquipo(Servicio):
 
@@ -93,9 +107,9 @@ class AlquilerEquipo(Servicio):
         return self.costo_base * self.dias
 
 
-# -------------------------
+# =========================================
 # SERVICIO ASESORIA
-# -------------------------
+# =========================================
 
 class Asesoria(Servicio):
 
@@ -113,9 +127,9 @@ class Asesoria(Servicio):
         return self.costo_base * self.sesiones
 
 
-# -------------------------
+# =========================================
 # CLASE RESERVA
-# -------------------------
+# =========================================
 
 class Reserva:
 
@@ -129,17 +143,17 @@ class Reserva:
 
         self.estado = "Confirmada"
 
-        print("Reserva confirmada")
+        print("\nReserva confirmada")
 
     def cancelar(self):
 
         self.estado = "Cancelada"
 
-        print("Reserva cancelada")
+        print("\nReserva cancelada")
 
     def mostrar_reserva(self):
 
-        print("\n----- RESERVA -----")
+        print("\n===== RESERVA =====")
 
         self.cliente.mostrar_datos()
 
@@ -148,17 +162,25 @@ class Reserva:
         print(f"Estado: {self.estado}")
 
 
-# -------------------------
+# =========================================
 # PRUEBAS DEL SISTEMA
-# -------------------------
+# =========================================
 
 try:
+
+    # -------------------------------------
+    # CLIENTE VÁLIDO
+    # -------------------------------------
 
     cliente1 = Cliente(
         "Alejandro",
         "123456",
         "correo@gmail.com"
     )
+
+    # -------------------------------------
+    # RESERVA DE SALA
+    # -------------------------------------
 
     servicio1 = ReservaSala(
         "Sala de juntas",
@@ -175,6 +197,52 @@ try:
 
     reserva1.mostrar_reserva()
 
+    # -------------------------------------
+    # CANCELAR RESERVA
+    # -------------------------------------
+
+    reserva1.cancelar()
+
+    reserva1.mostrar_reserva()
+
+    # -------------------------------------
+    # ALQUILER DE EQUIPO
+    # -------------------------------------
+
+    servicio2 = AlquilerEquipo(
+        "Video Beam",
+        30000,
+        3
+    )
+
+    reserva2 = Reserva(
+        cliente1,
+        servicio2
+    )
+
+    reserva2.confirmar()
+
+    reserva2.mostrar_reserva()
+
+    # -------------------------------------
+    # ASESORÍA
+    # -------------------------------------
+
+    servicio3 = Asesoria(
+        "Asesoría especializada",
+        80000,
+        2
+    )
+
+    reserva3 = Reserva(
+        cliente1,
+        servicio3
+    )
+
+    reserva3.confirmar()
+
+    reserva3.mostrar_reserva()
+
 except ValueError as error:
 
     print("Error:", error)
@@ -182,3 +250,33 @@ except ValueError as error:
 finally:
 
     print("\nPrograma finalizado")
+
+
+# =========================================
+# PRUEBAS DE EXCEPCIONES
+# =========================================
+
+try:
+
+    cliente2 = Cliente(
+        "Carlos",
+        "789",
+        "correomalo"
+    )
+
+except ValueError as error:
+
+    print("\nError detectado:", error)
+
+
+try:
+
+    servicio_error = ReservaSala(
+        "Sala VIP",
+        80000,
+        -2
+    )
+
+except ValueError as error:
+
+    print("\nError detectado:", error)
