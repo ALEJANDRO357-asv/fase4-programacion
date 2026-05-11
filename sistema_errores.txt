@@ -1,0 +1,160 @@
+================================================================================
+SISTEMA INTEGRAL DE GESTIÓN - SOFTWARE FJ
+Archivo de Errores
+Creado: [2026-05-10 21:40:17]
+================================================================================
+
+[2026-05-10 21:40:17] ERROR
+Tipo: DocumentoInvalidoError
+Mensaje: Documento inválido: ABC123. Debe contener solo números.
+Código: CLI001
+Contexto: Constructor de Persona
+--------------------------------------------------------------------------------
+
+[2026-05-10 21:40:17] ERROR
+Tipo: CorreoInvalidoError
+Mensaje: Correo electrónico inválido: correo_invalido. Debe contener '@' y un dominio válido.
+Código: CLI002
+Contexto: Constructor de Cliente - Ana Martínez
+--------------------------------------------------------------------------------
+
+[2026-05-10 21:40:17] ERROR
+Tipo: NombreInvalidoError
+Mensaje: Nombre inválido: Ab. Debe contener al menos 3 caracteres.
+Código: CLI003
+Contexto: Constructor de Persona
+--------------------------------------------------------------------------------
+
+[2026-05-10 21:40:17] ERROR
+Tipo: DuracionInvalidaError
+Mensaje: Duración inválida: -5 horas. Debe ser mayor a 0.
+Código: SRV001
+Contexto: Constructor de ReservaSala
+--------------------------------------------------------------------------------
+
+[2026-05-10 21:40:17] ERROR
+Tipo: CostoInvalidoError
+Mensaje: Costo inválido: -20000. Debe ser mayor a 0.
+Código: SRV002
+Contexto: Constructor de Servicio
+--------------------------------------------------------------------------------
+
+[2026-05-10 21:40:17] ERROR
+Tipo: DuracionInvalidaError
+Mensaje: Duración inválida: 0 sesiones. Debe ser mayor a 0.
+Código: SRV001
+Contexto: Constructor de Asesoria
+--------------------------------------------------------------------------------
+
+[2026-05-10 21:40:17] ERROR
+Tipo: ReservaCanceladaError
+Mensaje: La reserva RES-1004 ya ha sido cancelada y no puede modificarse.
+Código: RES002
+Contexto: Confirmar reserva RES-1004
+--------------------------------------------------------------------------------
+
+[2026-05-10 21:40:17] ERROR
+Tipo: DescuentoInvalidoError
+Mensaje: Descuento inválido: 150%. Debe estar entre 0 y 100.
+Código: CAL001
+Contexto: Cálculo de costo - Proyector HD
+--------------------------------------------------------------------------------
+
+[2026-05-10 21:40:17] ERROR
+Tipo: DescuentoInvalidoError
+Mensaje: Descuento inválido: 150%. Debe estar entre 0 y 100.
+Código: CAL001
+Contexto: Confirmar reserva RES-1005
+--------------------------------------------------------------------------------
+
+[2026-05-10 21:40:17] ERROR
+Tipo: ImpuestoInvalidoError
+Mensaje: Impuesto inválido: -5%. Debe estar entre 0 y 100.
+Código: CAL002
+Contexto: Cálculo de costo - Asesoría en Python
+--------------------------------------------------------------------------------
+
+[2026-05-10 21:40:17] ERROR
+Tipo: ImpuestoInvalidoError
+Mensaje: Impuesto inválido: -5%. Debe estar entre 0 y 100.
+Código: CAL002
+Contexto: Confirmar reserva RES-1006
+--------------------------------------------------------------------------------
+
+[2026-05-10 22:38:02] ERROR
+Tipo: DocumentoInvalidoError
+Mensaje: Documento inválido: ABC123. Debe contener solo números.
+Código: CLI001
+Contexto: Constructor de Persona
+--------------------------------------------------------------------------------
+
+[2026-05-10 22:38:02] ERROR
+Tipo: CorreoInvalidoError
+Mensaje: Correo electrónico inválido: correo_invalido. Debe contener '@' y un dominio válido.
+Código: CLI002
+Contexto: Constructor de Cliente - Ana Martínez
+--------------------------------------------------------------------------------
+
+[2026-05-10 22:38:02] ERROR
+Tipo: NombreInvalidoError
+Mensaje: Nombre inválido: Ab. Debe contener al menos 3 caracteres.
+Código: CLI003
+Contexto: Constructor de Persona
+--------------------------------------------------------------------------------
+
+[2026-05-10 22:38:02] ERROR
+Tipo: DuracionInvalidaError
+Mensaje: Duración inválida: -5 horas. Debe ser mayor a 0.
+Código: SRV001
+Contexto: Constructor de ReservaSala
+--------------------------------------------------------------------------------
+
+[2026-05-10 22:38:02] ERROR
+Tipo: CostoInvalidoError
+Mensaje: Costo inválido: -20000. Debe ser mayor a 0.
+Código: SRV002
+Contexto: Constructor de Servicio
+--------------------------------------------------------------------------------
+
+[2026-05-10 22:38:02] ERROR
+Tipo: DuracionInvalidaError
+Mensaje: Duración inválida: 0 sesiones. Debe ser mayor a 0.
+Código: SRV001
+Contexto: Constructor de Asesoria
+--------------------------------------------------------------------------------
+
+[2026-05-10 22:38:02] ERROR
+Tipo: ReservaCanceladaError
+Mensaje: La reserva RES-1004 ya ha sido cancelada y no puede modificarse.
+Código: RES002
+Contexto: Confirmar reserva RES-1004
+--------------------------------------------------------------------------------
+
+[2026-05-10 22:38:02] ERROR
+Tipo: DescuentoInvalidoError
+Mensaje: Descuento inválido: 150%. Debe estar entre 0 y 100.
+Código: CAL001
+Contexto: Cálculo de costo - Proyector HD
+--------------------------------------------------------------------------------
+
+[2026-05-10 22:38:02] ERROR
+Tipo: DescuentoInvalidoError
+Mensaje: Descuento inválido: 150%. Debe estar entre 0 y 100.
+Código: CAL001
+Contexto: Confirmar reserva RES-1005
+--------------------------------------------------------------------------------
+
+[2026-05-10 22:38:02] ERROR
+Tipo: ImpuestoInvalidoError
+Mensaje: Impuesto inválido: -5%. Debe estar entre 0 y 100.
+Código: CAL002
+Contexto: Cálculo de costo - Asesoría en Python
+--------------------------------------------------------------------------------
+
+[2026-05-10 22:38:02] ERROR
+Tipo: ImpuestoInvalidoError
+Mensaje: Impuesto inválido: -5%. Debe estar entre 0 y 100.
+Código: CAL002
+Contexto: Confirmar reserva RES-1006
+--------------------------------------------------------------------------------
+

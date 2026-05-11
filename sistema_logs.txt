@@ -1,0 +1,108 @@
+================================================================================
+SISTEMA INTEGRAL DE GESTIÓN - SOFTWARE FJ
+Archivo de Logs Generales
+Creado: [2026-05-10 21:40:17]
+================================================================================
+
+[2026-05-10 21:40:17] [INFO] Sistema iniciado
+[2026-05-10 21:40:17] [INFO] Persona creada: María González
+[2026-05-10 21:40:17] [INFO] Cliente registrado: María González
+[2026-05-10 21:40:17] [INFO] Operación Registro de Cliente: EXITOSA - María González (1234567890)
+[2026-05-10 21:40:17] [ERROR] ERROR - DocumentoInvalidoError: Documento inválido: ABC123. Debe contener solo números.
+[2026-05-10 21:40:17] [WARNING] Operación Registro de Cliente: FALLIDA - Documento inválido: ABC123. Debe contener solo números.
+[2026-05-10 21:40:17] [INFO] Persona creada: Ana Martínez
+[2026-05-10 21:40:17] [ERROR] ERROR - CorreoInvalidoError: Correo electrónico inválido: correo_invalido. Debe contener '@' y un dominio válido.
+[2026-05-10 21:40:17] [WARNING] Operación Registro de Cliente: FALLIDA - Correo electrónico inválido: correo_invalido. Debe contener '@' y un dominio válido.
+[2026-05-10 21:40:17] [ERROR] ERROR - NombreInvalidoError: Nombre inválido: Ab. Debe contener al menos 3 caracteres.
+[2026-05-10 21:40:17] [WARNING] Operación Registro de Cliente: FALLIDA - Nombre inválido: Ab. Debe contener al menos 3 caracteres.
+[2026-05-10 21:40:17] [INFO] Persona creada: Carlos Rodríguez
+[2026-05-10 21:40:17] [INFO] Cliente registrado: Carlos Rodríguez
+[2026-05-10 21:40:17] [INFO] Operación Registro de Cliente: EXITOSA - Carlos Rodríguez (1111222233)
+[2026-05-10 21:40:17] [WARNING] Operación Registro de Cliente: FALLIDA - Ya existe un cliente con documento 1234567890
+[2026-05-10 21:40:17] [INFO] Servicio creado: Sala de Conferencias A
+[2026-05-10 21:40:17] [INFO] Reserva de Sala configurada: Sala de Conferencias A
+[2026-05-10 21:40:17] [INFO] Operación Registro de Servicio: EXITOSA - Sala de Conferencias A
+[2026-05-10 21:40:17] [ERROR] ERROR - DuracionInvalidaError: Duración inválida: -5 horas. Debe ser mayor a 0.
+[2026-05-10 21:40:17] [INFO] Servicio creado: Proyector HD
+[2026-05-10 21:40:17] [INFO] Alquiler de Equipo configurado: Proyector HD
+[2026-05-10 21:40:17] [INFO] Operación Registro de Servicio: EXITOSA - Proyector HD
+[2026-05-10 21:40:17] [ERROR] ERROR - CostoInvalidoError: Costo inválido: -20000. Debe ser mayor a 0.
+[2026-05-10 21:40:17] [INFO] Servicio creado: Asesoría en Python
+[2026-05-10 21:40:17] [INFO] Asesoría configurada: Asesoría en Python
+[2026-05-10 21:40:17] [INFO] Operación Registro de Servicio: EXITOSA - Asesoría en Python
+[2026-05-10 21:40:17] [ERROR] ERROR - DuracionInvalidaError: Duración inválida: 0 sesiones. Debe ser mayor a 0.
+[2026-05-10 21:40:17] [INFO] Reserva creada: RES-1001
+[2026-05-10 21:40:17] [INFO] Operación Creación de Reserva: EXITOSA - ID: RES-1001
+[2026-05-10 21:40:17] [INFO] Reserva confirmada: RES-1001
+[2026-05-10 21:40:17] [INFO] Reserva creada: RES-1002
+[2026-05-10 21:40:17] [INFO] Operación Creación de Reserva: EXITOSA - ID: RES-1002
+[2026-05-10 21:40:17] [INFO] Reserva confirmada: RES-1002
+[2026-05-10 21:40:17] [INFO] Reserva creada: RES-1003
+[2026-05-10 21:40:17] [INFO] Operación Creación de Reserva: EXITOSA - ID: RES-1003
+[2026-05-10 21:40:17] [INFO] Reserva confirmada: RES-1003
+[2026-05-10 21:40:17] [INFO] Reserva cancelada: RES-1003
+[2026-05-10 21:40:17] [INFO] Reserva creada: RES-1004
+[2026-05-10 21:40:17] [INFO] Operación Creación de Reserva: EXITOSA - ID: RES-1004
+[2026-05-10 21:40:17] [INFO] Reserva cancelada: RES-1004
+[2026-05-10 21:40:17] [ERROR] ERROR - ReservaCanceladaError: La reserva RES-1004 ya ha sido cancelada y no puede modificarse.
+[2026-05-10 21:40:17] [INFO] Reserva creada: RES-1005
+[2026-05-10 21:40:17] [INFO] Operación Creación de Reserva: EXITOSA - ID: RES-1005
+[2026-05-10 21:40:17] [ERROR] ERROR - DescuentoInvalidoError: Descuento inválido: 150%. Debe estar entre 0 y 100.
+[2026-05-10 21:40:17] [ERROR] ERROR - DescuentoInvalidoError: Descuento inválido: 150%. Debe estar entre 0 y 100.
+[2026-05-10 21:40:17] [INFO] Reserva creada: RES-1006
+[2026-05-10 21:40:17] [INFO] Operación Creación de Reserva: EXITOSA - ID: RES-1006
+[2026-05-10 21:40:17] [ERROR] ERROR - ImpuestoInvalidoError: Impuesto inválido: -5%. Debe estar entre 0 y 100.
+[2026-05-10 21:40:17] [ERROR] ERROR - ImpuestoInvalidoError: Impuesto inválido: -5%. Debe estar entre 0 y 100.
+[2026-05-10 21:40:17] [INFO] Reserva procesada: RES-1001
+[2026-05-10 21:40:17] [INFO] Programa finalizado
+[2026-05-10 22:38:02] [INFO] Sistema iniciado
+[2026-05-10 22:38:02] [INFO] Persona creada: María González
+[2026-05-10 22:38:02] [INFO] Cliente registrado: María González
+[2026-05-10 22:38:02] [INFO] Operación Registro de Cliente: EXITOSA - María González (1234567890)
+[2026-05-10 22:38:02] [ERROR] ERROR - DocumentoInvalidoError: Documento inválido: ABC123. Debe contener solo números.
+[2026-05-10 22:38:02] [WARNING] Operación Registro de Cliente: FALLIDA - Documento inválido: ABC123. Debe contener solo números.
+[2026-05-10 22:38:02] [INFO] Persona creada: Ana Martínez
+[2026-05-10 22:38:02] [ERROR] ERROR - CorreoInvalidoError: Correo electrónico inválido: correo_invalido. Debe contener '@' y un dominio válido.
+[2026-05-10 22:38:02] [WARNING] Operación Registro de Cliente: FALLIDA - Correo electrónico inválido: correo_invalido. Debe contener '@' y un dominio válido.
+[2026-05-10 22:38:02] [ERROR] ERROR - NombreInvalidoError: Nombre inválido: Ab. Debe contener al menos 3 caracteres.
+[2026-05-10 22:38:02] [WARNING] Operación Registro de Cliente: FALLIDA - Nombre inválido: Ab. Debe contener al menos 3 caracteres.
+[2026-05-10 22:38:02] [INFO] Persona creada: Carlos Rodríguez
+[2026-05-10 22:38:02] [INFO] Cliente registrado: Carlos Rodríguez
+[2026-05-10 22:38:02] [INFO] Operación Registro de Cliente: EXITOSA - Carlos Rodríguez (1111222233)
+[2026-05-10 22:38:02] [WARNING] Operación Registro de Cliente: FALLIDA - Ya existe un cliente con documento 1234567890
+[2026-05-10 22:38:02] [INFO] Servicio creado: Sala de Conferencias A
+[2026-05-10 22:38:02] [INFO] Reserva de Sala configurada: Sala de Conferencias A
+[2026-05-10 22:38:02] [INFO] Operación Registro de Servicio: EXITOSA - Sala de Conferencias A
+[2026-05-10 22:38:02] [ERROR] ERROR - DuracionInvalidaError: Duración inválida: -5 horas. Debe ser mayor a 0.
+[2026-05-10 22:38:02] [INFO] Servicio creado: Proyector HD
+[2026-05-10 22:38:02] [INFO] Alquiler de Equipo configurado: Proyector HD
+[2026-05-10 22:38:02] [INFO] Operación Registro de Servicio: EXITOSA - Proyector HD
+[2026-05-10 22:38:02] [ERROR] ERROR - CostoInvalidoError: Costo inválido: -20000. Debe ser mayor a 0.
+[2026-05-10 22:38:02] [INFO] Servicio creado: Asesoría en Python
+[2026-05-10 22:38:02] [INFO] Asesoría configurada: Asesoría en Python
+[2026-05-10 22:38:02] [INFO] Operación Registro de Servicio: EXITOSA - Asesoría en Python
+[2026-05-10 22:38:02] [ERROR] ERROR - DuracionInvalidaError: Duración inválida: 0 sesiones. Debe ser mayor a 0.
+[2026-05-10 22:38:02] [INFO] Reserva creada: RES-1001
+[2026-05-10 22:38:02] [INFO] Operación Creación de Reserva: EXITOSA - ID: RES-1001
+[2026-05-10 22:38:02] [INFO] Reserva confirmada: RES-1001
+[2026-05-10 22:38:02] [INFO] Reserva creada: RES-1002
+[2026-05-10 22:38:02] [INFO] Operación Creación de Reserva: EXITOSA - ID: RES-1002
+[2026-05-10 22:38:02] [INFO] Reserva confirmada: RES-1002
+[2026-05-10 22:38:02] [INFO] Reserva creada: RES-1003
+[2026-05-10 22:38:02] [INFO] Operación Creación de Reserva: EXITOSA - ID: RES-1003
+[2026-05-10 22:38:02] [INFO] Reserva confirmada: RES-1003
+[2026-05-10 22:38:02] [INFO] Reserva cancelada: RES-1003
+[2026-05-10 22:38:02] [INFO] Reserva creada: RES-1004
+[2026-05-10 22:38:02] [INFO] Operación Creación de Reserva: EXITOSA - ID: RES-1004
+[2026-05-10 22:38:02] [INFO] Reserva cancelada: RES-1004
+[2026-05-10 22:38:02] [ERROR] ERROR - ReservaCanceladaError: La reserva RES-1004 ya ha sido cancelada y no puede modificarse.
+[2026-05-10 22:38:02] [INFO] Reserva creada: RES-1005
+[2026-05-10 22:38:02] [INFO] Operación Creación de Reserva: EXITOSA - ID: RES-1005
+[2026-05-10 22:38:02] [ERROR] ERROR - DescuentoInvalidoError: Descuento inválido: 150%. Debe estar entre 0 y 100.
+[2026-05-10 22:38:02] [ERROR] ERROR - DescuentoInvalidoError: Descuento inválido: 150%. Debe estar entre 0 y 100.
+[2026-05-10 22:38:02] [INFO] Reserva creada: RES-1006
+[2026-05-10 22:38:02] [INFO] Operación Creación de Reserva: EXITOSA - ID: RES-1006
+[2026-05-10 22:38:02] [ERROR] ERROR - ImpuestoInvalidoError: Impuesto inválido: -5%. Debe estar entre 0 y 100.
+[2026-05-10 22:38:02] [ERROR] ERROR - ImpuestoInvalidoError: Impuesto inválido: -5%. Debe estar entre 0 y 100.
+[2026-05-10 22:38:02] [INFO] Reserva procesada: RES-1001
+[2026-05-10 22:38:02] [INFO] Programa finalizado

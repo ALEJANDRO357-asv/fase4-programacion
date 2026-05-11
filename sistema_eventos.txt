@@ -1,0 +1,148 @@
+================================================================================
+SISTEMA INTEGRAL DE GESTIÓN - SOFTWARE FJ
+Archivo de Eventos
+Creado: [2026-05-10 21:40:17]
+================================================================================
+
+[2026-05-10 21:40:17] Sistema iniciado
+Detalles: GestorSistema creado
+----------------------------------------
+[2026-05-10 21:40:17] Persona creada: María González
+Detalles: Documento: 1234567890
+----------------------------------------
+[2026-05-10 21:40:17] Cliente registrado: María González
+Detalles: Correo: maria.gonzalez@email.com, Teléfono: 3001234567
+----------------------------------------
+[2026-05-10 21:40:17] Persona creada: Ana Martínez
+Detalles: Documento: 9876543210
+----------------------------------------
+[2026-05-10 21:40:17] Persona creada: Carlos Rodríguez
+Detalles: Documento: 1111222233
+----------------------------------------
+[2026-05-10 21:40:17] Cliente registrado: Carlos Rodríguez
+Detalles: Correo: carlos.rodriguez@email.com, Teléfono: 3109876543
+----------------------------------------
+[2026-05-10 21:40:17] Servicio creado: Sala de Conferencias A
+Detalles: Costo base: $50,000.00
+----------------------------------------
+[2026-05-10 21:40:17] Reserva de Sala configurada: Sala de Conferencias A
+Detalles: Horas: 3, Capacidad: 20 personas
+----------------------------------------
+[2026-05-10 21:40:17] Servicio creado: Proyector HD
+Detalles: Costo base: $30,000.00
+----------------------------------------
+[2026-05-10 21:40:17] Alquiler de Equipo configurado: Proyector HD
+Detalles: Días: 5, Tipo: Audiovisual
+----------------------------------------
+[2026-05-10 21:40:17] Servicio creado: Asesoría en Python
+Detalles: Costo base: $100,000.00
+----------------------------------------
+[2026-05-10 21:40:17] Asesoría configurada: Asesoría en Python
+Detalles: Sesiones: 6, Duración: 2h, Especialidad: Programación
+----------------------------------------
+[2026-05-10 21:40:17] Reserva creada: RES-1001
+Detalles: Cliente: María González, Servicio: Sala de Conferencias A
+----------------------------------------
+[2026-05-10 21:40:17] Reserva confirmada: RES-1001
+Detalles: Costo final: $160,650.00
+----------------------------------------
+[2026-05-10 21:40:17] Reserva creada: RES-1002
+Detalles: Cliente: Carlos Rodríguez, Servicio: Proyector HD
+----------------------------------------
+[2026-05-10 21:40:17] Reserva confirmada: RES-1002
+Detalles: Costo final: $169,575.00
+----------------------------------------
+[2026-05-10 21:40:17] Reserva creada: RES-1003
+Detalles: Cliente: María González, Servicio: Asesoría en Python
+----------------------------------------
+[2026-05-10 21:40:17] Reserva confirmada: RES-1003
+Detalles: Costo final: $606,900.00
+----------------------------------------
+[2026-05-10 21:40:17] Reserva cancelada: RES-1003
+----------------------------------------
+[2026-05-10 21:40:17] Reserva creada: RES-1004
+Detalles: Cliente: Carlos Rodríguez, Servicio: Sala de Conferencias A
+----------------------------------------
+[2026-05-10 21:40:17] Reserva cancelada: RES-1004
+----------------------------------------
+[2026-05-10 21:40:17] Reserva creada: RES-1005
+Detalles: Cliente: María González, Servicio: Proyector HD
+----------------------------------------
+[2026-05-10 21:40:17] Reserva creada: RES-1006
+Detalles: Cliente: Carlos Rodríguez, Servicio: Asesoría en Python
+----------------------------------------
+[2026-05-10 21:40:17] Reserva procesada: RES-1001
+----------------------------------------
+[2026-05-10 21:40:17] Programa finalizado
+----------------------------------------
+[2026-05-10 22:38:02] Sistema iniciado
+Detalles: GestorSistema creado
+----------------------------------------
+[2026-05-10 22:38:02] Persona creada: María González
+Detalles: Documento: 1234567890
+----------------------------------------
+[2026-05-10 22:38:02] Cliente registrado: María González
+Detalles: Correo: maria.gonzalez@email.com, Teléfono: 3001234567
+----------------------------------------
+[2026-05-10 22:38:02] Persona creada: Ana Martínez
+Detalles: Documento: 9876543210
+----------------------------------------
+[2026-05-10 22:38:02] Persona creada: Carlos Rodríguez
+Detalles: Documento: 1111222233
+----------------------------------------
+[2026-05-10 22:38:02] Cliente registrado: Carlos Rodríguez
+Detalles: Correo: carlos.rodriguez@email.com, Teléfono: 3109876543
+----------------------------------------
+[2026-05-10 22:38:02] Servicio creado: Sala de Conferencias A
+Detalles: Costo base: $50,000.00
+----------------------------------------
+[2026-05-10 22:38:02] Reserva de Sala configurada: Sala de Conferencias A
+Detalles: Horas: 3, Capacidad: 20 personas
+----------------------------------------
+[2026-05-10 22:38:02] Servicio creado: Proyector HD
+Detalles: Costo base: $30,000.00
+----------------------------------------
+[2026-05-10 22:38:02] Alquiler de Equipo configurado: Proyector HD
+Detalles: Días: 5, Tipo: Audiovisual
+----------------------------------------
+[2026-05-10 22:38:02] Servicio creado: Asesoría en Python
+Detalles: Costo base: $100,000.00
+----------------------------------------
+[2026-05-10 22:38:02] Asesoría configurada: Asesoría en Python
+Detalles: Sesiones: 6, Duración: 2h, Especialidad: Programación
+----------------------------------------
+[2026-05-10 22:38:02] Reserva creada: RES-1001
+Detalles: Cliente: María González, Servicio: Sala de Conferencias A
+----------------------------------------
+[2026-05-10 22:38:02] Reserva confirmada: RES-1001
+Detalles: Costo final: $160,650.00
+----------------------------------------
+[2026-05-10 22:38:02] Reserva creada: RES-1002
+Detalles: Cliente: Carlos Rodríguez, Servicio: Proyector HD
+----------------------------------------
+[2026-05-10 22:38:02] Reserva confirmada: RES-1002
+Detalles: Costo final: $169,575.00
+----------------------------------------
+[2026-05-10 22:38:02] Reserva creada: RES-1003
+Detalles: Cliente: María González, Servicio: Asesoría en Python
+----------------------------------------
+[2026-05-10 22:38:02] Reserva confirmada: RES-1003
+Detalles: Costo final: $606,900.00
+----------------------------------------
+[2026-05-10 22:38:02] Reserva cancelada: RES-1003
+----------------------------------------
+[2026-05-10 22:38:02] Reserva creada: RES-1004
+Detalles: Cliente: Carlos Rodríguez, Servicio: Sala de Conferencias A
+----------------------------------------
+[2026-05-10 22:38:02] Reserva cancelada: RES-1004
+----------------------------------------
+[2026-05-10 22:38:02] Reserva creada: RES-1005
+Detalles: Cliente: María González, Servicio: Proyector HD
+----------------------------------------
+[2026-05-10 22:38:02] Reserva creada: RES-1006
+Detalles: Cliente: Carlos Rodríguez, Servicio: Asesoría en Python
+----------------------------------------
+[2026-05-10 22:38:02] Reserva procesada: RES-1001
+----------------------------------------
+[2026-05-10 22:38:02] Programa finalizado
+----------------------------------------
